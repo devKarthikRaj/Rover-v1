@@ -1,12 +1,16 @@
 /* Rover Version 1 Mark I Low Level Controller Firmware
+ *  
  *  Receive encoded movement data from master over Bluetooth link.
  *  Send encoded movement data to motor controller over UART link.
-   *  
+ *  
  *  Code written for Arduino Mega Clone (Driver Auto Installed by Windows)
  *  
  *  UART 0 - Serial - For debugging
  *  UART 1 - Serial1 - Bluetooth link (wireless UART)
  *  UART 2 - Serial2 - UART to motor controller
+ *  
+ *  The low level controller acts as a middleman between the remote and the motor controller
+ *  This code receives joystick data over Bluetooth and sends it to motor controller over UART
  *  
  *  Written By Karthik Raj
  */

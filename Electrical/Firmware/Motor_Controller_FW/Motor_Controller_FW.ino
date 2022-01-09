@@ -1,12 +1,14 @@
 /* Motor Controller Version 1 Firmware
- 
-    Code written for Arduino Nano Clone (Driver Auto Installed by Windows)
-
-    UART 0 - Serial - For debugging
-    UART 1 - uart1 - UART to low level controller
-
-    Written By Karthik Raj
-*/
+ *  
+ *  Code written for Arduino Nano Clone (Driver Auto Installed by Windows)
+ *  
+ *  UART 0 - Serial - For debugging
+ *  UART 1 - uart1 - UART to low level controller
+ *  
+ *  This code receives and decodes joystick data and then drives the motors accordingly
+ *
+ *  Written By Karthik Raj 
+ */
 
 #include <SoftwareSerial.h>
 #include <roverV1.h>
