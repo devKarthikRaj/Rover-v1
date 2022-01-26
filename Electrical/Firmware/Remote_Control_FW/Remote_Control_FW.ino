@@ -5,14 +5,12 @@
  *    
  *    Written By Karthik Raj
  */
-
-#include <Coordinates.h> //Complex num operations... This lib operates in radians from 0 to 2PI
 #include <SoftwareSerial.h>
 
 #define joystickRx A1
 #define joystickRy A0
-#define btTx 2
-#define btRx 3
+#define btTx 7
+#define btRx 6
 
 //Define second pair of tx and rx (for Arduino Uno only)
 SoftwareSerial hc05(btRx, btTx); // RX, TX

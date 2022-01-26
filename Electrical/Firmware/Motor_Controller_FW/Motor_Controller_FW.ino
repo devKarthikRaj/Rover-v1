@@ -101,7 +101,7 @@ void rxMovementData() {
   }
   //if no data available...
   else {
-    //Serial.print("No Data Rx'ed");
+    //Serial.println("No Data Rx'ed");
   }
 }
 

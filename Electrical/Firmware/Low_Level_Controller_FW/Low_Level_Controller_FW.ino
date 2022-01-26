@@ -40,6 +40,6 @@ void loop() {
     }
   } else {
     Serial2.print("(512,512)");
-    Serial.print("BT Connection Lost"); //For debugging only
+    Serial.println("BT Connection Lost"); //For debugging only
   }
 }
