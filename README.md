@@ -1,7 +1,8 @@
 # Rover-v1
+<div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%202.jpg" alt="Rover v1 final take 2"></div><br>
 Remote Control Rover (Rover v1) Documentation <br> 
 Build completed on 21st January 2022. <br>
-Created for my own reference in the future and for any interested engineer wannabes (like myself) out there! <br>
+Created for my own reference in the future and for any interested *engineer wannabes (like myself)* out there! <br>
 Warning - This is a long read! <br>
 
 ## I had been wanting to build something like this for quite a while now.  
@@ -37,9 +38,9 @@ I started on the electrical aspect instead. My goal was to finish the electrical
 Next comes the motor circuitry. Started by designing a motor driver using the L298N H-bridge motor driver IC chip. It worked on the first try! I got lucky I guess! I wanted to step things up a notch. So, I went on to design a motor controller motor driver with a microcontroller (MCU) onboard the PCB). 
 The motor controller has can be hooked up with an emergency stop (eStop) switch.
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20eStop%20test.gif" alt="Motor controller eStop test"></div> <br> 
-Commands can be sent to the motor controller via SPI. It also comes with LED power and eStop indicators.
+Commands can be sent to the motor controller via SPI. It also comes with LED power and eStop indicators. 
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20take%201.jpg" alt="Motor controller" width=500> </div> <br>
-<img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20main%20test.gif" alt="Motor controller in action"></div> <br>
+<div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20main%20test.gif" alt="Motor controller in action"></div> <br>
 
 ### An emotional rollercoaster...
 Sad story incoming. On top of all that, I also added a provision for an accelerometer module to be interfaced with the MCU on the motor controller board. The whole point of the accelerometer was to make the robot go straight. Supplying the exact same voltage to two motors of the same model will not make them spin at exactly the same rate. One motor "might" be slightly faster than the other. Every motor is different. The robot won't move in a straight line unless I have feedback control to ensure that the robot moves in a straight line. Instead of using a motor fitted with an encoder to measure distance travelled by each wheel and then feedback to the MCU to adjust accordingly, I thought of trying something new. Using an accelerometer module to measure the distance. This turned out to be extremely challenging. To obtain distance from an accelerometer, you'd have to double integrate and the result is extremely inaccurate. Espcially over time, the error increases exponentially. Check out the accelerometer in action:
@@ -55,8 +56,8 @@ Since the motor controller was an "overall" success and since I secured all the 
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20chassis%20in%20dev.jpeg" alt="Rover chassis in dev" width="500"></div> <br>
 
 ## A hot mess...
-Yes. I know the whole rover sounds like a hot mess (not literally... my PCBs are cool as cucumbers). So here's the block diagram of the rover's electrical system. The big picture: 
-![Overall Electrical System Block Diagram]() <br>
+Yes. I know the whole rover sounds like a hot mess (not literally... my PCBs are cool as cucumbers). So here's the block diagram of the rover's electrical system. The big picture:
+<img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Electrical/Overall%20Electrical%20System/Overall%20Block%20Diagram/Overall%20Block%20Diagram.png" alt="Overall Electrical System Block Diagram">
 The so called "low level controller (LLC)" here acts as a middle man. The low level controller is just an Arduino Mega board. The LLC communicates with the remote control for the rover via Bluetooth and sends the data received from the Bluetooth remote to the motor controller via SPI. In the future, if I add sensors to this rover, the sensors will also interact with the low level controller. The low level controller will process the sensor data and send control signals to the motor controller accordingly. Having the LLC will hopefully allow me to upgrade this rover hassle free in the future!   
 
 The assembly was smooth as butter. The entire electrical system was wired up and "WORKING" on my table. That's what I'm talking about! Robot on a table: 
@@ -73,16 +74,13 @@ Last but not least - the firmware for all the MCUs on the rover and the Bluetoot
 
 Oh oh... I totally forgot about the remote control. It was still contained on a breadboard, running off my old Arduino Uno. Quickly made a THT PCB and got it manufactured and soldered. Took about a day to design the PCB in Eagle and 2 weeks for it to be delivered. Soldered it and boom! Done! One good thing that came about from creating so many failed SMD PCBs - now I can whip up simple "WORKING" boards in a few hours... yay!
 <div align="center">
-    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Remote%20control%20no%20case%20take%201.jpg" alt="Remote control no case take 1" width="200">
-    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Remote%20control%20no%20case%20take%202.jpg" alt="Remote control no case take 2" width="200">
+    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Remote%20control%20no%20case%20take%201.jpg" alt="Remote control no case take 1" width="400">
+    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Remote%20control%20no%20case%20take%202.jpg" alt="Remote control no case take 2" width="400">
 </div>
-<div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Remote%20control%20no%20case%20with%20rover.jpg" alt="Remote control no case with rover" width="500"></div> <br>
+<div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Remote%20control%20no%20case%20with%20rover.jpg" alt="Remote control no case with rover" width="400"></div> <br>
 
 The remote control needed a case! Luckily I saved some unused 3D printed acrylic mounts from a school project a few years ago. Zip tied the remote control PCB and stuck the 9V battery to the mount.
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Remote%20control%20in%20case.jpg" alt="Remote control in case" width="500"></div> <br>
 
 Stick a fork in it people! We done!
-<div align="center">
-    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%201.jpg" alt="Rover v1 final take 1">
-    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%202.jpg" alt="Rover v1 final take 2">
-</div>
+<div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%201.jpg" alt="Rover v1 final take 1" width="500"></div>
