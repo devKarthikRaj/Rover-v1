@@ -21,7 +21,7 @@ Eventually, I got the motor mounts 3D printed and assembled them. Functionality 
     <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Old%20motor%20mount%20one%20side%20take%203.jpg" alt="Old motor mount one side take 3" width=200>
 </div> <br>
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Old%20motor%20mounts.jpg" alt="Old motor motor mounts" width=500></div> <br>  
-You can find these mounts on [GrabCAD](https://grabcad.com/library/gearbox-dc-motor-mount-1) if you need the files. Feel free to use it. Give it a like too, that'll make my day! <br>
+You can find these mounts on [GrabCAD](grabcad.com/library/gearbox-dc-motor-mount-1) if you need the files. Feel free to use it. Give it a like too, that'll make my day! <br>
 
 Motor mounts done. Need to mount them to something right? Its time to design the robot base. Came up with a race car/skateboard like shape for the base. <br>
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Old%20rover%20chassis%20CAD%20render.jpg" alt="Old rover chassis CAD render" width=500></div> <br>
@@ -39,8 +39,8 @@ The motor controller has can be hooked up with an emergency stop (eStop) switch.
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20eStop%20test.gif" alt="Motor controller eStop test"></div> <br> 
 Commands can be sent to the motor controller via SPI. It also comes with LED power and eStop indicators.
 <div align="center">
-    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20take%201.jpg" alt="Motor controller take 1" width=200>
-    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20Controller%20take%202.jpg" alt="Motor controller take 2" width=200>  
+    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20take%201.jpg" alt="Motor controller take 1" width=300>
+    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20Controller%20take%202.jpg" alt="Motor controller take 2" width=400>  
 </div> <br>
 <div align="center">
     <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20main%20test.gif" alt="Motor controller in action">
@@ -88,6 +88,6 @@ The remote control needed a case! Luckily I saved some unused 3D printed acrylic
 
 Stick a fork in it people! We done!
 <div align="center">
-    <img src="Rover v1 final take 1" alt="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%201.jpg" width="250">
-    <img src="Rover v1 final take 2" alt="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%202.jpg" width="250">
+    <img src="Rover v1 final take 1" alt="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%201.jpg" width="200">
+    <img src="Rover v1 final take 2" alt="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%202.jpg" width="200">
 </div>
