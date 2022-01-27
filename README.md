@@ -1,10 +1,10 @@
 # Rover-v1
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%202.jpg" alt="Rover v1 final take 2"></div><br>
-**Rover v1 Documentation** <br> 
+<b>Rover v1 Documentation <br> 
 **Initial build completed on 21st January 2022.** <br>
 **The inital build is a joystick controlled rover.**
-**Created for my own reference in the future and for any interested *engineer wannabes* (like myself) out there!** <br>
-**Warning - This is a long read!** <br>
+**Created for my own reference in the future and for any interested engineer wannabes (like myself) out there!** <br>
+**Warning - This is a long read!**</b> <br>
 
 ## I had been wanting to build something like this for quite a while now.  
 I thought this would be easy and wouldn't take that long. Boy, was I wrong! Nevertheless, I had loads of fun doing this. Especially when everything worked! <br>
@@ -23,7 +23,7 @@ Eventually, I got the motor mounts 3D printed and assembled them. Functionality 
     <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Old%20motor%20mount%20one%20side%20take%203.jpg" alt="Old motor mount one side take 3" width=200>
 </div> <br>
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Old%20motor%20mounts.jpg" alt="Old motor motor mounts" width=500></div> <br>  
-You can find these mounts on [GrabCAD](grabcad.com/library/gearbox-dc-motor-mount-1) if you need the files. Feel free to use it. Give it a like too, that'll make my day! <br>
+You can find these mounts on <a href="https://grabcad.com/library/gearbox-dc-motor-mount-1">GrabCAD</a> if you need the files. Feel free to use it. Give it a like too, that'll make my day! <br>
 
 Motor mounts done. Need to mount them to something right? Its time to design the robot base. Came up with a race car/skateboard like shape for the base. <br>
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Old%20rover%20chassis%20CAD%20render.jpg" alt="Old rover chassis CAD render" width=500></div> <br>
@@ -65,12 +65,15 @@ The assembly was smooth as butter. The entire electrical system was wired up and
 
 Last but not least - the firmware for all the MCUs on the rover and the Bluetooth remote. Writing firmware is always fun. Even though I encountered half a million exceptions. I'm kidding. 
 ## Baby steps
+The first time the rover moved...
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20baby%20steps.gif" alt="baby steps"></div> <br> 
 
 ## Rover gone mad
+Bug filled code creating chaos...
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20gone%20mad.gif" alt="Rover gone mad"></div> <br> 
 
 ## Rover in action!
+It works!
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20in%20action.gif" alt="Rover in action"></div> <br>
 
 Oh oh... I totally forgot about the remote control. It was still contained on a breadboard, running off my old Arduino Uno. Quickly made a THT PCB and got it manufactured and soldered. Took about a day to design the PCB in Eagle and 2 weeks for it to be delivered. Soldered it and boom! Done! One good thing that came about from creating so many failed SMD PCBs - now I can whip up simple "WORKING" boards in a few hours... yay!
