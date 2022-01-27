@@ -38,7 +38,7 @@ Next comes the motor circuitry. Started by designing a motor driver using the L2
 The motor controller has can be hooked up with an emergency stop (eStop) switch.
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20eStop%20test.gif" alt="Motor controller eStop test"></div> <br> 
 Commands can be sent to the motor controller via SPI. It also comes with LED power and eStop indicators.
-<div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20take%201.jpg" alt="Motor controller" width=300>
+<div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20take%201.jpg" alt="Motor controller" width=500> </div> <br>
 <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20main%20test.gif" alt="Motor controller in action"></div> <br>
 
 ### An emotional rollercoaster...
@@ -73,8 +73,8 @@ Last but not least - the firmware for all the MCUs on the rover and the Bluetoot
 
 Oh oh... I totally forgot about the remote control. It was still contained on a breadboard, running off my old Arduino Uno. Quickly made a THT PCB and got it manufactured and soldered. Took about a day to design the PCB in Eagle and 2 weeks for it to be delivered. Soldered it and boom! Done! One good thing that came about from creating so many failed SMD PCBs - now I can whip up simple "WORKING" boards in a few hours... yay!
 <div align="center">
-    <img src="Remote control no case take 1" alt="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Remote%20control%20no%20case%20take%201.jpg" width="200">
-    <img src="Remote control no case take 2" alt="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Remote%20control%20no%20case%20take%202.jpg" width="200">
+    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Remote%20control%20no%20case%20take%201.jpg" alt="Remote control no case take 1" width="200">
+    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Remote%20control%20no%20case%20take%202.jpg" alt="Remote control no case take 2" width="200">
 </div>
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Remote%20control%20no%20case%20with%20rover.jpg" alt="Remote control no case with rover" width="500"></div> <br>
 
@@ -83,6 +83,6 @@ The remote control needed a case! Luckily I saved some unused 3D printed acrylic
 
 Stick a fork in it people! We done!
 <div align="center">
-    <img src="Rover v1 final take 1" alt="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%201.jpg">
-    <img src="Rover v1 final take 2" alt="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%202.jpg">
+    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%201.jpg" alt="Rover v1 final take 1">
+    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%202.jpg" alt="Rover v1 final take 2">
 </div>
