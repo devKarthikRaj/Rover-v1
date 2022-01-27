@@ -38,13 +38,8 @@ Next comes the motor circuitry. Started by designing a motor driver using the L2
 The motor controller has can be hooked up with an emergency stop (eStop) switch.
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20eStop%20test.gif" alt="Motor controller eStop test"></div> <br> 
 Commands can be sent to the motor controller via SPI. It also comes with LED power and eStop indicators.
-<div align="center">
-    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20take%201.jpg" alt="Motor controller take 1" width=300>
-    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20Controller%20take%202.jpg" alt="Motor controller take 2" width=400>  
-</div> <br>
-<div align="center">
-    <img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20main%20test.gif" alt="Motor controller in action">
-</div> <br>
+<div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20take%201.jpg" alt="Motor controller" width=300>
+<img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Motor%20controller%20main%20test.gif" alt="Motor controller in action"></div> <br>
 
 ### An emotional rollercoaster...
 Sad story incoming. On top of all that, I also added a provision for an accelerometer module to be interfaced with the MCU on the motor controller board. The whole point of the accelerometer was to make the robot go straight. Supplying the exact same voltage to two motors of the same model will not make them spin at exactly the same rate. One motor "might" be slightly faster than the other. Every motor is different. The robot won't move in a straight line unless I have feedback control to ensure that the robot moves in a straight line. Instead of using a motor fitted with an encoder to measure distance travelled by each wheel and then feedback to the MCU to adjust accordingly, I thought of trying something new. Using an accelerometer module to measure the distance. This turned out to be extremely challenging. To obtain distance from an accelerometer, you'd have to double integrate and the result is extremely inaccurate. Espcially over time, the error increases exponentially. Check out the accelerometer in action:
@@ -88,6 +83,6 @@ The remote control needed a case! Luckily I saved some unused 3D printed acrylic
 
 Stick a fork in it people! We done!
 <div align="center">
-    <img src="Rover v1 final take 1" alt="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%201.jpg" width="200">
-    <img src="Rover v1 final take 2" alt="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%202.jpg" width="200">
+    <img src="Rover v1 final take 1" alt="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%201.jpg">
+    <img src="Rover v1 final take 2" alt="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%202.jpg">
 </div>
