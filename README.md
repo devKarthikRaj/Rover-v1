@@ -12,14 +12,14 @@ Kicked off the project by designing the mechanical aspect of the rover in Fusion
 <!-- Yellow DC Gear Motor Pic --> <br>
 
 So, I went on to CAD out a mount for these motors. <br>
-![Old motor mount CAD render]() <br>
+![Old motor mount CAD render](https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Old%20motor%20mount%20CAD%20render.jpg) <br>
 
 Eventually, I got the motor mounts 3D printed and assembled them. Functionality wise, these mounts were pretty good. Structurally, the screw holders at the side were too thin and broke off if stressed too much; but hey, the mounts got the job done... I'll let that pass! <br>
-![Old motor mount one side take 1]() 
-![Old motor mount one side take 2]()
-![Old motor mount one side take 3]() <br> 
-![Old motor motor mounts]() <br>
-You can find these mounts on [GrabCAD]() if you need to files. Feel free to use it. Give it a like too, that'll make my day! <br>
+![Old motor mount one side take 1](https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Old%20motor%20mount%20one%20side%20take%201.jpg) 
+![Old motor mount one side take 2](https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Old%20motor%20mount%20one%20side%20take%202.jpg)
+![Old motor mount one side take 3](https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Old%20motor%20mount%20one%20side%20take%203.jpg) <br> 
+![Old motor motor mounts](https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Old%20motor%20mounts.jpg) <br>
+You can find these mounts on [GrabCAD](https://grabcad.com/library/gearbox-dc-motor-mount-1) if you need the files. Feel free to use it. Give it a like too, that'll make my day! <br>
 
 Motor mounts done. Need to mount them to something right? Its time to design the robot base. Came up with a race car/skateboard like shape for the base. <br> 
 ![Old rover chassis CAD render]() <br>
