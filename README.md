@@ -1,9 +1,10 @@
 # Rover-v1
 <div align="center"><img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Rover%20v1%20final%20take%202.jpg" alt="Rover v1 final take 2"></div><br>
-Remote Control Rover (Rover v1) Documentation <br> 
-Build completed on 21st January 2022. <br>
-Created for my own reference in the future and for any interested *engineer wannabes (like myself)* out there! <br>
-Warning - This is a long read! <br>
+**Rover v1 Documentation** <br> 
+**Initial build completed on 21st January 2022.** <br>
+**The inital build is a joystick controlled rover.**
+**Created for my own reference in the future and for any interested *engineer wannabes* (like myself) out there!** <br>
+**Warning - This is a long read!** <br>
 
 ## I had been wanting to build something like this for quite a while now.  
 I thought this would be easy and wouldn't take that long. Boy, was I wrong! Nevertheless, I had loads of fun doing this. Especially when everything worked! <br>
