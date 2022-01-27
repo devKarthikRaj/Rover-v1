@@ -9,7 +9,7 @@ I thought this would be easy and wouldn't take that long. Boy, was I wrong! Neve
 
 ## A rocky beginning...
 Kicked off the project by designing the mechanical aspect of the rover in Fusion 360 CAD. Initially decided to use those low cost yellow DC gear motors. YEAH I KNOW RIGHT, these motors are a pain to use just because they don't come with a mount, its not easy to mount these motors to ANYTHING! <br>
-![Yellow DC gear motor](https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Yellow%20DC%20gear%20motor.jpg | width = 500)<br>
+![Yellow DC gear motor]<img src="https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Yellow%20DC%20gear%20motor.jpg" width = 500> <br>
 
 So, I went on to CAD out a mount for these motors. <br>
 ![Old motor mount CAD render](https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Old%20motor%20mount%20CAD%20render.jpg | width = 500) <br>
