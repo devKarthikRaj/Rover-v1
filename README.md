@@ -9,7 +9,7 @@ I thought this would be easy and wouldn't take that long. Boy, was I wrong! Neve
 
 ## A rocky beginning...
 Kicked off the project by designing the mechanical aspect of the rover in Fusion 360 CAD. Initially decided to use those low cost yellow DC gear motors. YEAH I KNOW RIGHT, these motors are a pain to use just because they don't come with a mount, its not easy to mount these motors to ANYTHING! <br>
-<!-- Yellow DC Gear Motor Pic --> <br>
+![Yellow DC gear motor](https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Yellow%20DC%20gear%20motor.jpg | width = 500)<br>
 
 So, I went on to CAD out a mount for these motors. <br>
 ![Old motor mount CAD render](https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Old%20motor%20mount%20CAD%20render.jpg) <br>
@@ -25,7 +25,7 @@ Motor mounts done. Need to mount them to something right? Its time to design the
 ![Old rover chassis CAD render]() <br>
 
 I laser cut the base and attached the motor mounts with the motor to the base. This chassis looked pretty damn good. <br>
-![Old rover chassis in dev]() <br>
+![Old rover chassis in dev](https://github.com/devKarthikRaj/Rover-v1/blob/master/Media/Old%20rover%20chassis%20in%20dev.jpg) <br>
 I managed to complete only half the chassis though. Around this time, I graduated from school and lost access to all those wonderful machines(laser cutters, 3D printers, drills and stuff). Gone with the wind! There are 3D printing shops out there that offer low cost small scale printing for hobbyists like me! The problem was with finding a laser cutting shop or even a CNC shop for that matter - every place was expensive and only accepted large scale orders. Not hobbyist friendly. With a heavy heart... I discarded my beautiful half cooked chassis and took a break from the mechanical aspect. <br>
 
 ## A fresh start...
