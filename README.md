@@ -14,7 +14,7 @@ Created for my own reference in the future and for any interested engineer wanna
 [Remote Control](https://github.com/devKarthikRaj/Rover-v1/tree/master/Electrical/PCBs/Remote%20Control/Rover%20Bt%20Remote) <br>
 
 <i>Arduino Header Files</i> <br>
-[Rover v1 Pin Configuration Header](https://github.com/devKarthikRaj/Rover-v1/tree/master/Electrical/Firmware/Arduino%20Libraries/roverV1) <br><br>
+[Rover v1 Pin Configuration Header](https://github.com/devKarthikRaj/Rover-v1/tree/master/Electrical/Firmware/Arduino%20Libraries/roverV1) <br>
 
 <i>Arduino Firmware</i> <br>
 [Low Level Controller](https://github.com/devKarthikRaj/Rover-v1/tree/master/Electrical/Firmware/Low_Level_Controller_FW) <br>
