@@ -3,8 +3,36 @@
 <b>Rover v1 Documentation <br> 
 Initial build completed on 21st January 2022.<br>
 The inital build is a joystick controlled rover. <br>
-Created for my own reference in the future and for any interested engineer wannabes (like myself) out there! <br>
-Warning - This is a long read!</b> <br>
+Created for my own reference in the future and for any interested engineer wannabes (like myself) out there! <br> </b>
+
+## Quick Reference
+<b>Electrical</b> <br>
+<i>Eagle PCBs</i> <br>
+[Power Distribution Board](https://github.com/devKarthikRaj/Rover-v1/tree/master/Electrical/PCBs/Power%20Distribution%20Board/PDB%20v0) <br>
+[Motor Driver](https://github.com/devKarthikRaj/Rover-v1/tree/master/Electrical/PCBs/Not%20in%20Use/Motor%20Driver/Rover%20MDrv%20v1) <br>
+[Motor Controller](https://github.com/devKarthikRaj/Rover-v1/tree/master/Electrical/PCBs/Motor%20Controller/MCon%20v1) <br>
+[Remote Control](https://github.com/devKarthikRaj/Rover-v1/tree/master/Electrical/PCBs/Remote%20Control/Rover%20Bt%20Remote) <br><br>
+
+<i>Arduino Header Files</i>
+[Rover v1 Pin Configuration Header](https://github.com/devKarthikRaj/Rover-v1/tree/master/Electrical/Firmware/Arduino%20Libraries/roverV1) <br><br>
+
+<i>Arduino Firmware</i>
+[Low Level Controller](https://github.com/devKarthikRaj/Rover-v1/tree/master/Electrical/Firmware/Low_Level_Controller_FW) <br>
+[Motor Controller](https://github.com/devKarthikRaj/Rover-v1/tree/master/Electrical/Firmware/Motor_Controller_FW) <br>
+[Remote Control](https://github.com/devKarthikRaj/Rover-v1/tree/master/Electrical/Firmware/Remote_Control_FW) <br><br>
+
+<i>Overall Electrical System</i>
+[Block Diagram](https://github.com/devKarthikRaj/Rover-v1/blob/master/Electrical/Overall%20Electrical%20System/Overall%20Block%20Diagram/Overall%20Block%20Diagram.png) <br>
+[Eagle Schematic](https://github.com/devKarthikRaj/Rover-v1/blob/master/Electrical/Overall%20Electrical%20System/Overall%20Schematic/Rover%20Overalls/Rover%20v1%20Overall.sch) <br><br>
+
+<b>Mechanical</b>
+[Motor Mount Fusion 360 File](https://github.com/devKarthikRaj/Rover-v1/blob/master/Mechanical/Not%20in%20Use/Motor%20Mount%20v1.f3d) <br>
+[Motor Mount GrabCAD](https://grabcad.com/library/gearbox-dc-motor-mount-1)<br>
+
+___
+
+## How it all came together
+Warning - This is a long read! <br>
 
 ## I had been wanting to build something like this for quite a while now.  
 I thought this would be easy and wouldn't take that long. Boy, was I wrong! Nevertheless, I had loads of fun doing this. Especially when everything worked! <br>
