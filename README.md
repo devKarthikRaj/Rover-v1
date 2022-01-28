@@ -25,7 +25,7 @@ Created for my own reference in the future and for any interested engineer wanna
 [Block Diagram](https://github.com/devKarthikRaj/Rover-v1/blob/master/Electrical/Overall%20Electrical%20System/Overall%20Block%20Diagram/Overall%20Block%20Diagram.png) <br>
 [Eagle Schematic](https://github.com/devKarthikRaj/Rover-v1/blob/master/Electrical/Overall%20Electrical%20System/Overall%20Schematic/Rover%20Overalls/Rover%20v1%20Overall.sch) <br>
 
-<i>Mechanical</i> <br>
+<b>Mechanical</b> <br>
 [Motor Mount Fusion 360 File](https://github.com/devKarthikRaj/Rover-v1/blob/master/Mechanical/Not%20in%20Use/Motor%20Mount%20v1.f3d) <br>
 [Motor Mount GrabCAD](https://grabcad.com/library/gearbox-dc-motor-mount-1)<br>
 
